@@ -1,0 +1,65 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-Android-$ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') 
+
+      - name: Build Release APK
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: $ secrets.UNITY_LICENSE 
+          UNITY_EMAIL: $ secrets.UNITY_EMAIL 
+          UNITY_PASSWORD: $ secrets.UNITY_PASSWORD 
+        with:
+          targetPlatform: Android
+          androidExportType: androidPackage
+          buildName: VRPhysicsLab
+
+      - name: Generate Changelog
+        id: changelog
+        uses: metcalfc/changelog-generator@v4.1.0
+        with:
+          myToken: $ secrets.GITHUB_TOKEN 
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: VR Physics Lab $ github.ref_name 
+          body: |
+            ## 🚀 VR Physics Lab $ github.ref_name 
+
+            ### What's Changed
+            $ steps.changelog.outputs.changelog 
+
+            ### Installation
+            1. Download the `.apk` file below
+            2. Enable Developer Mode on your Meta Quest 3
+            3. Install via SideQuest or `adb install VRPhysicsLab.apk`
+
+            ### Requirements
+            - Meta Quest 3
+            - Meta Quest firmware v68+
+          files: build/Android/*.apk
+          draft: false
+          prerelease: $ contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') 
+        env:
+          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN 
