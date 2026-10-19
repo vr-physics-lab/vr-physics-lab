@@ -1,4 +1,4 @@
-# 🏗️ VR Physics Lab — Architecture Overview
+# VR Physics Lab — Architecture Overview
 
 ## High-Level Architecture
 

@@ -1,4 +1,4 @@
-# 🏢 GitHub Organization Structure
+# GitHub Organization Structure
 
 ## Organization: `vr-physics-lab`
 
@@ -48,7 +48,7 @@ Create a `.github` repository in the organization with:
 This appears on the org homepage at `github.com/vr-physics-lab`:
 
 ```markdown
-# 🔬 VR Physics Lab
+# VR Physics Lab
 
 > Open-source VR physics education platform for schools & universities.
 > Government-funded | Unity + Meta Quest 3 | Built in Uzbekistan
@@ -57,13 +57,13 @@ This appears on the org homepage at `github.com/vr-physics-lab`:
 Make quality STEM education accessible to every student through virtual reality.
 
 ## Repositories
-- 🏗️ [vr-physics-lab](../vr-physics-lab) — Main Unity application
-- 📦 [vr-physics-lab-sdk](../vr-physics-lab-sdk) — Reusable physics SDK
-- 🎨 [vr-physics-lab-assets](../vr-physics-lab-assets) — Open 3D assets
-- 📖 [vr-physics-lab-docs](../vr-physics-lab-docs) — Documentation
+- [vr-physics-lab](../vr-physics-lab) — Main Unity application
+- [vr-physics-lab-sdk](../vr-physics-lab-sdk) — Reusable physics SDK
+- [vr-physics-lab-assets](../vr-physics-lab-assets) — Open 3D assets
+- [vr-physics-lab-docs](../vr-physics-lab-docs) — Documentation
 
 ## Funded by
-🇸🏳️ Republic of Uzbekistan — "Bo'lajak olim" Innovation Grant
+Republic of Uzbekistan — "Bo'lajak olim" Innovation Grant
 ```
 
 ---

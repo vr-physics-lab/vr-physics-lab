@@ -2,7 +2,7 @@
 <div align="center">
   <img src="docs/assets/banner.png" alt="VR Physics Lab Banner" width="100%">
 
-  <h1>🔬 VR Physics Lab</h1>
+  <h1>VR Physics Lab</h1>
   <p><strong>Immersive VR Physics Education for Schools & Universities</strong></p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -14,49 +14,49 @@
 
   <br/>
 
-  [**📖 Documentation**](docs/) · [**🚀 Releases**](https://github.com/vr-physics-lab/vr-physics-lab/releases) · [**🐛 Report Bug**](https://github.com/vr-physics-lab/vr-physics-lab/issues/new?template=bug_report.md) · [**💡 Request Feature**](https://github.com/vr-physics-lab/vr-physics-lab/issues/new?template=feature_request.md)
+  [**Documentation**](docs/) · [**Releases**](https://github.com/vr-physics-lab/vr-physics-lab/releases) · [**Report Bug**](https://github.com/vr-physics-lab/vr-physics-lab/issues/new?template=bug_report.md) · [**Request Feature**](https://github.com/vr-physics-lab/vr-physics-lab/issues/new?template=feature_request.md)
 
 </div>
 
 ---
 
-## 🌍 Overview
+## Overview
 
 **VR Physics Lab** is an open-source educational virtual reality platform that transforms how students learn physics. Instead of reading about Newton's Laws or watching simulations, students *experience* physics firsthand — in immersive, interactive VR experiments on Meta Quest 3.
 
 The project is a **government-funded initiative** awarded through the official *"Bo'lajak olim" (Future Scientist)* innovation grant competition in Uzbekistan, and is designed to serve schools and universities across Central Asia and beyond.
 
-> 🏆 **Grant Winner** — "Bo'lajak olim" Innovation Competition, Uzbekistan  
-> 💰 Grant Amount: 72,666,000 UZS (~$5,650 USD)  
-> 📌 Status: Implementation Stage
+> **Grant Winner** — "Bo'lajak olim" Innovation Competition, Uzbekistan  
+> Grant Amount: 72,666,000 UZS (~$5,650 USD)  
+> Status: Implementation Stage
 
 ---
 
-## ✨ Features
+## Features
 
 | Module | Description | Status |
 |--------|-------------|--------|
-| 🍎 **Newton's Laws** | Interactive force, mass, and acceleration experiments | 🔄 In Progress |
-| 🌍 **Gravity & Free Fall** | Drop objects in different gravitational fields | 📅 Planned |
-| ⚡ **Energy Conservation** | Visualize kinetic and potential energy transfer | 📅 Planned |
-| 💥 **Collisions** | Elastic and inelastic collision sandbox | 📅 Planned |
-| 🚀 **Velocity & Acceleration** | Motion graphs come to life in VR | 📅 Planned |
-| 📊 **Real-time Data Dashboard** | In-VR graphs and measurement tools | 📅 Planned |
+| **Newton's Laws** | Interactive force, mass, and acceleration experiments | In Progress |
+| **Gravity & Free Fall** | Drop objects in different gravitational fields | Planned |
+| **Energy Conservation** | Visualize kinetic and potential energy transfer | Planned |
+| **Collisions** | Elastic and inelastic collision sandbox | Planned |
+| **Velocity & Acceleration** | Motion graphs come to life in VR | Planned |
+| **Real-time Data Dashboard** | In-VR graphs and measurement tools | Planned |
 
 ---
 
-## 🎯 Physics Topics Covered
+## Physics Topics Covered
 
-- ⚖️ Newton's First, Second, and Third Laws
-- 🌍 Gravity and Gravitational Fields
-- 💪 Force and Mass relationships
-- 🏃 Velocity and Acceleration
-- ⚡ Conservation of Energy
-- 💥 Elastic and Inelastic Collisions
+- Newton's First, Second, and Third Laws
+- Gravity and Gravitational Fields
+- Force and Mass relationships
+- Velocity and Acceleration
+- Conservation of Energy
+- Elastic and Inelastic Collisions
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -71,7 +71,7 @@ The project is a **government-funded initiative** awarded through the official *
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ For detailed setup instructions, see [docs/setup.md](docs/setup.md).
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 See our full [ROADMAP.md](ROADMAP.md) for detailed milestones.
 
@@ -127,23 +127,23 @@ See our full [ROADMAP.md](ROADMAP.md) for detailed milestones.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from educators, VR developers, Unity engineers, and physics enthusiasts!
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 **Ways to contribute:**
-- 🐛 Report bugs via [Issues](https://github.com/vr-physics-lab/vr-physics-lab/issues)
-- 💡 Suggest new physics experiments
-- 🎨 Create 3D assets in Blender
-- 🧑‍💻 Implement new features
-- 📖 Improve documentation
-- 🌍 Translate UI to other languages
+- Report bugs via [Issues](https://github.com/vr-physics-lab/vr-physics-lab/issues)
+- Suggest new physics experiments
+- Create 3D assets in Blender
+- Implement new features
+- Improve documentation
+- Translate UI to other languages
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
@@ -151,7 +151,7 @@ Funded in part by a government innovation grant from the Republic of Uzbekistan.
 
 ---
 
-## 🏫 About
+## About
 
 VR Physics Lab is developed by a team based in Uzbekistan, with the mission to make quality STEM education accessible to every student through the power of virtual reality.
 
@@ -160,5 +160,5 @@ VR Physics Lab is developed by a team based in Uzbekistan, with the mission to m
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for students everywhere · Funded by the Republic of Uzbekistan</sub>
+  <sub>Built for students everywhere · Funded by the Republic of Uzbekistan</sub>
 </div>

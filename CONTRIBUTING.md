@@ -1,10 +1,10 @@
-# 🤝 Contributing to VR Physics Lab
+# Contributing to VR Physics Lab
 
 Thank you for your interest in contributing to **VR Physics Lab**! This is a government-funded, open-source educational project and we welcome contributions from developers, educators, 3D artists, and anyone passionate about STEM education.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [How to Contribute](#how-to-contribute)
@@ -18,13 +18,13 @@ Thank you for your interest in contributing to **VR Physics Lab**! This is a gov
 
 ---
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 This project follows our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). By participating, you agree to uphold these standards. Please report unacceptable behavior to the maintainers.
 
 ---
 
-## 🚀 How to Contribute
+## How to Contribute
 
 ### 1. Fork & Clone
 
@@ -59,7 +59,7 @@ Push your branch and open a PR against `develop`.
 
 ---
 
-## 🛠️ Development Setup
+## Development Setup
 
 ### Requirements
 
@@ -86,7 +86,7 @@ git lfs pull
 
 ---
 
-## 🌿 Branch Strategy
+## Branch Strategy
 
 | Branch | Purpose |
 |--------|---------|
@@ -101,7 +101,7 @@ git lfs pull
 
 ---
 
-## ✍️ Commit Message Convention
+## Commit Message Convention
 
 We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
@@ -136,7 +136,7 @@ assets(models): add lab table and equipment 3D models
 
 ---
 
-## 🔍 Pull Request Process
+## Pull Request Process
 
 1. **Target `develop` branch** (never commit directly to `main`)
 2. **Fill out the PR template** completely
@@ -159,7 +159,7 @@ Examples:
 
 ---
 
-## 🐛 Issue Guidelines
+## Issue Guidelines
 
 ### Bug Reports
 
@@ -179,7 +179,7 @@ Use the **Feature Request** template and include:
 
 ---
 
-## 🎨 Style Guides
+## Style Guides
 
 ### C# Code Style
 
@@ -231,7 +231,7 @@ Assets/
 
 ---
 
-## 🌍 Community
+## Community
 
 - **Discussions**: [GitHub Discussions](https://github.com/vr-physics-lab/vr-physics-lab/discussions)
 - **Issues**: [GitHub Issues](https://github.com/vr-physics-lab/vr-physics-lab/issues)
@@ -239,4 +239,4 @@ Assets/
 
 ---
 
-Thank you for helping make physics education more immersive and accessible! 🚀
+Thank you for helping make physics education more immersive and accessible! 

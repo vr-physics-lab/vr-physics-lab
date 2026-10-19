@@ -1,4 +1,4 @@
-# 🚀 Release Strategy
+# Release Strategy
 
 ## Versioning
 

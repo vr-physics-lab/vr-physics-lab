@@ -1,34 +1,34 @@
 ---
-name: "🐛 Bug Report"
+name: "Bug Report"
 about: Report a bug to help us improve VR Physics Lab
 title: "[BUG] "
 labels: ["bug", "needs-triage"]
 assignees: ""
 ---
 
-## 🐛 Bug Description
+## Bug Description
 
 A clear and concise description of the bug.
 
-## 🔄 Steps to Reproduce
+## Steps to Reproduce
 
 1. Go to '...'
 2. Interact with '...'
 3. Observe '...'
 
-## ✅ Expected Behavior
+## Expected Behavior
 
 What you expected to happen.
 
-## ❌ Actual Behavior
+## Actual Behavior
 
 What actually happened.
 
-## 📸 Screenshots / Video
+## Screenshots / Video
 
 If applicable, add screenshots or a video clip.
 
-## 🛠️ Environment
+## Environment
 
 | Field | Value |
 |-------|-------|
@@ -38,11 +38,11 @@ If applicable, add screenshots or a video clip.
 | XR Interaction Toolkit | e.g. 2.5.2 |
 | Meta XR SDK | e.g. 65.0 |
 
-## 📝 Additional Context
+## Additional Context
 
 Any other context about the problem.
 
-## 🔴 Severity
+## Severity
 
 - [ ] Critical (crashes / data loss)
 - [ ] High (major feature broken)

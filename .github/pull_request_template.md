@@ -1,30 +1,30 @@
-## 📝 Summary
+## Summary
 
 Brief description of what this PR does.
 
 Closes #<!-- issue number -->
 
-## 🔄 Type of Change
+## Type of Change
 
-- [ ] 🐛 Bug fix
-- [ ] ✨ew feature / experiment
-- [ ] 📖 Documentation update
-- [ ] 🎨 Asset addition (3D models, textures)
-- [ ] ⚙️ Refactor / optimization
-- [ ] 🔧 CI/CD / build system
+- [ ] Bug fix
+- [ ] New feature / experiment
+- [ ] Documentation update
+- [ ] Asset addition (3D models, textures)
+- [ ] Refactor / optimization
+- [ ] CI/CD / build system
 
-## 🧪 Testing
+## Testing
 
 - [ ] Tested in Unity Editor (Play Mode)
 - [ ] Tested on Meta Quest 3 hardware
 - [ ] No compiler errors or warnings
 - [ ] No performance regressions (Quest 3 maintains 72fps)
 
-## 📸 Screenshots / Video
+## Screenshots / Video
 
 If this is a visual change, include screenshots or a short video.
 
-## ✅ Checklist
+## Checklist
 
 - [ ] My code follows the [style guide](CONTRIBUTING.md#style-guides)
 - [ ] I have commented my code where necessary
@@ -33,6 +33,6 @@ If this is a visual change, include screenshots or a short video.
 - [ ] My branch is up-to-date with `develop`
 - [ ] I have assigned a reviewer
 
-## 💬 Additional Notes
+## Additional Notes
 
 Anything else reviewers should know.

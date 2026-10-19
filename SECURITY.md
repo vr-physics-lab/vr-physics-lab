@@ -1,11 +1,11 @@
-# 🔒 Security Policy
+# Security Policy
 
 ## Supported Versions
 
 | Version | Supported |
 |---------|-----------|
-| v1.x    | ✅ Yes |
-| < v1.0  | ⚠️ Best effort |
+| v1.x    | Yes |
+| < v1.0  | Best effort |
 
 ## Reporting a Vulnerability
 

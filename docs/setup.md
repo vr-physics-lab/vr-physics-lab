@@ -1,4 +1,4 @@
-# 🚀 Development Setup Guide
+# Development Setup Guide
 
 This guide walks you through setting up VR Physics Lab for local development.
 
@@ -51,7 +51,7 @@ git lfs pull
 4. Ensure Unity **2022.3 LTS** is selected
 5. Click **Open**
 
-> ⚠️ Unity may take several minutes to import assets the first time.
+> Unity may take several minutes to import assets the first time.
 
 ---
 

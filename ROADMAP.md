@@ -1,16 +1,16 @@
-# 🗺️ VR Physics Lab — Roadmap
+# VR Physics Lab — Roadmap
 
 This roadmap outlines our planned milestones from initial prototype to a full multi-subject STEM platform.
 
-> 📌 This project is funded by the "Bo'lajak olim" government innovation grant (Uzbekistan).
+> This project is funded by the "Bo'lajak olim" government innovation grant (Uzbekistan).
 
 ---
 
-## 📍 Current Status: Implementation Stage
+## Current Status: Implementation Stage
 
 ---
 
-## 🏁 Milestone Overview
+## Milestone Overview
 
 ```
 v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ──── v2.0
@@ -20,7 +20,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v0.1 — Foundation (Q1 2025)
+## v0.1 — Foundation (Q1 2025)
 
 **Goal:** Establish the core VR framework and first working experiment.
 
@@ -38,7 +38,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v0.2 — Gravity & Free Fall (Q2 2025)
+## v0.2 — Gravity & Free Fall (Q2 2025)
 
 **Goal:** Add gravity experiments with multi-planet support.
 
@@ -50,7 +50,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v0.3 — Energy Conservation (Q3 2025)
+## v0.3 — Energy Conservation (Q3 2025)
 
 **Goal:** Visualize energy transfer in real-time.
 
@@ -62,7 +62,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v0.4 — Collisions Sandbox (Q3 2025)
+## v0.4 — Collisions Sandbox (Q3 2025)
 
 **Goal:** Interactive collision experiments.
 
@@ -74,7 +74,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v1.0 — Full Prototype (Q4 2025)
+## v1.0 — Full Prototype (Q4 2025)
 
 **Goal:** Complete, deployable prototype for schools.
 
@@ -89,7 +89,7 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 🔷 v2.0 — STEM Platform (2026+)
+## v2.0 — STEM Platform (2026+)
 
 **Goal:** Expand to a full multi-subject STEM platform.
 
@@ -103,13 +103,13 @@ v0.1 ──── v0.2 ──── v0.3 ──── v0.4 ──── v1.0 ─
 
 ---
 
-## 💡 Long-term Vision
+## Long-term Vision
 
 > Build a scalable, open-source STEM education ecosystem accessible to every school — regardless of location or resources.
 
 ---
 
-## 📊 Track Progress
+## Track Progress
 
 Follow our progress on the [GitHub Project Board](https://github.com/orgs/vr-physics-lab/projects/1).
 
