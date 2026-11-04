@@ -21,14 +21,14 @@ jobs:
         uses: actions/cache@v4
         with:
           path: Library
-          key: Library-Android-$ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') 
+          key: Library-Android-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
 
       - name: Build Release APK
         uses: game-ci/unity-builder@v4
         env:
-          UNITY_LICENSE: $ secrets.UNITY_LICENSE 
-          UNITY_EMAIL: $ secrets.UNITY_EMAIL 
-          UNITY_PASSWORD: $ secrets.UNITY_PASSWORD 
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: Android
           androidExportType: androidPackage
@@ -38,17 +38,17 @@ jobs:
         id: changelog
         uses: metcalfc/changelog-generator@v4.1.0
         with:
-          myToken: $ secrets.GITHUB_TOKEN 
+          myToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          name: VR Physics Lab $ github.ref_name 
+          name: VR Physics Lab ${{ github.ref_name }}
           body: |
-            ## 🚀 VR Physics Lab $ github.ref_name 
+            ## 🚀 VR Physics Lab ${{ github.ref_name }}
 
             ### What's Changed
-            $ steps.changelog.outputs.changelog 
+            ${{ steps.changelog.outputs.changelog }}
 
             ### Installation
             1. Download the `.apk` file below
@@ -60,6 +60,6 @@ jobs:
             - Meta Quest firmware v68+
           files: build/Android/*.apk
           draft: false
-          prerelease: $ contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') 
+          prerelease: ${{ contains(github.ref_name, '-beta') || contains(github.ref_name, '-alpha') }}
         env:
-          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
